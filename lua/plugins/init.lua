@@ -225,6 +225,7 @@ local default_plugins = {
       dofile(vim.g.base46_cache .. "nvimtree")
       require("nvim-tree").setup(opts)
     end,
+    lazy=false,
   },
 
   {
